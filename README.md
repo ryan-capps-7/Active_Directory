@@ -26,7 +26,7 @@ By the end of this lab one should be able to:<br>
 - Create different Organizational Units (Groups) and Users<br>
 - Configure OUs and users with different group policies<br>
 - Set a static IP and DNS server<br>
-
+<br>
 Can be learned intuitively:
 - Password reset
 - Account disable
