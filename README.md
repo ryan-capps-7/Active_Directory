@@ -22,10 +22,10 @@ Overall, by completing this lab (and having just the general curiosity to poke a
 
 <h2>Takeaways</h2>
 By the end of this lab one should be able to:
-- Configure a server with Active Directory\
-- Create different Organizational Units (Groups) and Users\
-- Configure OUs and users with different group policies\
-- Set a static IP and DNS server\
+- Configure a server with Active Directory <br>
+- Create different Organizational Units (Groups) and Users<br>
+- Configure OUs and users with different group policies<br>
+- Set a static IP and DNS server<br>
 
 Can be learned intuitively:
 - Password reset
