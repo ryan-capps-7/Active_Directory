@@ -6,6 +6,7 @@ The purpose of this lab is to learn how to configure a server to administer mult
 Overall, by completing this lab (and having just the general curiosity to poke around), one should have a better grasp of how Active Directory works at a very fundamental level.
 
 <h2>Steps:</h2>
+Diagram of my workflow (https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Untitled%20Diagram.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fryan-capps-7%2FHome.Page%2Fmain%2FUntitled%2520Diagram.drawio)
 <h3>Install Oracle Virtual Box</h3>
 <h3>Download Windows 10 and Windows Server 2022 ISO</h3>
 <h3>Spin Up Two VMs:</h3>
