@@ -21,7 +21,7 @@ Overall, by completing this lab (and having just the general curiosity to poke a
 <h4>Test Group Policies</h4>
 
 <h2>Takeaways</h2>
-By the end of this lab one should be able to:
+By the end of this lab one should be able to:<br>
 - Configure a server with Active Directory <br>
 - Create different Organizational Units (Groups) and Users<br>
 - Configure OUs and users with different group policies<br>
