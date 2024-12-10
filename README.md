@@ -8,7 +8,7 @@ Overall, by completing this lab (and having just the general curiosity to poke a
 <h2>Steps:</h2>
 <h3>Install Oracle Virtual Box</h3>
 1. Head over to Oracle Virtual Box's website and download the application.
- <a href=https://www.virtualbox.org/>here</a>
+ <a href=https://www.virtualbox.org/>Download</a>
 <h3>Download Windows 10 and Windows Server 2022 ISO</h3>
 1. Download the Windows 10 graphical ISO from 
 <h3>Spin Up Two VMs:</h3>
