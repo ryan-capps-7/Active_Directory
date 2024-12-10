@@ -10,6 +10,11 @@ Overall, by completing this lab (and having just the general curiosity to poke a
 1. Head over to Oracle Virtual Box's website and download the application
  <a href=https://www.virtualbox.org/>here.</a>
 <h3>Download Windows 10 and Windows Server 2022 ISO</h3>
+
+<br>
+An ISO file is similar to having the physical disc that helps install the OS. This will help us get to the installation process for both Windows 10 and Windows Server 2022 without the need for a disc reader. 
+<br>
+
 1. Download the Windows 10 graphical ISO from 
 <h3>Spin Up Two VMs:</h3>
 <h4>Windows 10 Pro</h4>
