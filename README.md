@@ -18,6 +18,7 @@ An ISO file is similar to having the physical disc that helps install the OS. Th
 2. Download the Windows Server 2022 from the Microsoft Evaulation Center. (looking for the ISO, not the virtual machine in Azure)
 <h3>Spin Up Two VMs:</h3>
 <h4>Windows 10 Pro</h4>
+<ol>
 1. Open Virtual Box and click "New" to create a new virtual machine.
 2. Give the VM a name, a file path to save the data, and select the Windows 10 ISO as the "intended installation".
 3. Provision the appropriate resources like RAM and CPU cores for the VM. I chose 4096 MB of RAM and 3 CPU cores.
@@ -25,7 +26,7 @@ An ISO file is similar to having the physical disc that helps install the OS. Th
 
 <h4>Windows Server 2022</h4>
 5. While Windows 10 Pro is installing, repeat steps 1-4 for Windows Server 2022 
-
+</ol>
 <h3>Configure AD Domain Services</h3>
 <h4>Set Static IP</h4>
 
