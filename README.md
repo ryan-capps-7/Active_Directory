@@ -19,13 +19,13 @@ An ISO file is similar to having the physical disc that helps install the OS. Th
 <h3>Spin Up Two VMs:</h3>
 <h4>Windows 10 Pro</h4>
 <ol>
-1. Open Virtual Box and click "New" to create a new virtual machine.
-2. Give the VM a name, a file path to save the data, and select the Windows 10 ISO as the "intended installation".
-3. Provision the appropriate resources like RAM and CPU cores for the VM. I chose 4096 MB of RAM and 3 CPU cores.
-4. Click "Next" on all the prompts until reaching the install page.
+    <li>Open Virtual Box and click "New" to create a new virtual machine.</li>
+    <li>Give the VM a name, a file path to save the data, and select the Windows 10 ISO as the "intended installation".</li>
+    <li>Provision the appropriate resources like RAM and CPU cores for the VM. I chose 4096 MB of RAM and 3 CPU cores.</li>
+    <li>Click "Next" on all the prompts until reaching the install page.</li>
 
 <h4>Windows Server 2022</h4>
-5. While Windows 10 Pro is installing, repeat steps 1-4 for Windows Server 2022 
+    <li>While Windows 10 Pro is installing, repeat steps 1-4 for Windows Server 2022</li>
 </ol>
 <h3>Configure AD Domain Services</h3>
 <h4>Set Static IP</h4>
