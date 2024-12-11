@@ -21,13 +21,29 @@ An ISO file is similar to having the physical disc that helps install the OS. Th
 <ol>
     <li>Open Virtual Box and click "New" to create a new virtual machine.</li>
     <li>Give the VM a name, a file path to save the data, and select the Windows 10 ISO as the "intended installation".</li>
-    <li>Provision the appropriate resources like RAM and CPU cores for the VM. I chose 4096 MB of RAM and 3 CPU cores.</li>
-    <li>Click "Next" on all the prompts until reaching the install page.</li>
+    <li>Click the "Skip Unattended Installation" checkbox and move on to the next page</li>
+    <li>Provision the appropriate hardware resources like RAM and CPU cores for the VM. I chose 4096 MB of RAM and 3 CPU cores.</li>
+    <li>Click "Next" on all the prompts until reaching the "Finish" button.</li>
 </ol>
 <h4>Windows Server 2022</h4>
     While Windows 10 Pro is installing, repeat steps 1-4 for Windows Server 2022
+<ol>
+ <li>Select "Install Now"</li>
+ <li>For the specific OS that we want to install, it should be the "Standard Evalutation (Desktop Experience)" since we want to be able to view our environment with a GUI or graphical user interface.</li>
+ <li>Accept Microsoft's License terms and select "Custom" for the type of installation that you want.</li>
+ <li></li>
+</ol>
 
 <h3>Configure AD Domain Services</h3>
+The very first thing to do inside the Windows Server VM is to set up Active Directory Domain Services.
+<ol>
+ <li>Open the Server Manager application. It should automatically open on startup.</li>
+ <li>On the top ribbon of buttons, click on the "Manage" button and navigate to "Add Roles and Features".</li>
+ <li>Click "Next", until you get to the "Server Roles" page and click the "Active Directory Domain Services" checkbox.</li>
+ <li>Continue clicking "Next" until the "Install" button is no longer grey and can be clicked and install the features!</li>
+ <li></li>
+ <li></li>
+</ol>
 <h4>Set Static IP</h4>
 
 <h4>Create Groups & Users</h4>
