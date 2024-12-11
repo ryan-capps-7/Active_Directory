@@ -23,10 +23,10 @@ An ISO file is similar to having the physical disc that helps install the OS. Th
     <li>Give the VM a name, a file path to save the data, and select the Windows 10 ISO as the "intended installation".</li>
     <li>Provision the appropriate resources like RAM and CPU cores for the VM. I chose 4096 MB of RAM and 3 CPU cores.</li>
     <li>Click "Next" on all the prompts until reaching the install page.</li>
-
-<h4>Windows Server 2022</h4>
-    <li>While Windows 10 Pro is installing, repeat steps 1-4 for Windows Server 2022</li>
 </ol>
+<h4>Windows Server 2022</h4>
+    While Windows 10 Pro is installing, repeat steps 1-4 for Windows Server 2022
+
 <h3>Configure AD Domain Services</h3>
 <h4>Set Static IP</h4>
 
