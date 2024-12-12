@@ -7,8 +7,8 @@ Overall, by completing this lab (and having just the general curiosity to poke a
 
 <h2>Steps:</h2>
 <h3>Install Oracle Virtual Box</h3>
-<li>Head over to Oracle Virtual Box's website and download the application</li>
- <a href=https://www.virtualbox.org/>here.</a>
+<li>Head over to Oracle Virtual Box's website and download the application <a href=https://www.virtualbox.org/>here.</a></li>
+
 <h3>Download Windows 10 and Windows Server 2022 ISO</h3>
 An ISO file is similar to having the physical disc that helps install the OS. This will help us get to the installation process for both Windows 10 and Windows Server 2022 without the need for a disc reader. 
 <br>
@@ -86,7 +86,7 @@ Now it's time to set the static IP address for the server so that it is not rand
 <h3>Configure Workstation for AD</h3>
 <ol>
  <li>Customize Windows to the language and keyboard layout you prefer.</li>
- <li>Continue to finish setting up the workstation as an "Offline Account" -> "Limited Experience" because no personal details are necessary to connect to the server.</li>\
+ <li>Continue to finish setting up the workstation as an "Offline Account" -> "Limited Experience" because no personal details are necessary to connect to the server.</li>
 </ol>
 <h4>Update DNS Config</h4>
 <ol>
