@@ -68,15 +68,50 @@ Now it's time to set the static IP address for the server so that it is not rand
 </ol>
 
 <h4>Create Groups & Users</h4>
+<ol>
+ <li>Click the Windows symbol in the bottom left, open the "Windows Administrative Tools" dropdown, and select "Active Directory Users and Computers"</li>
+ <li>Now we can see our server and right-click to open a menu. Head to the "New" tab to see the different types to add to the server. Add an Organizational Unit (OU) and name it a category to suit the scope (ex. USA, New York, Human Resources)</li>
+ <li>To add a user, do the same to the OU just created. Right-click the OU, hover over "New" and select "User" where name and user logon can be created.</li>
+ <li>Click "Next" and set a temporary password to be changed when the user logs on for the first time.</li>
+</ol>
 <h4>Create Group Policies</h4>
+<ol>
+ <li>Using the search function in the taskbar, find "Group Policy Management" application.</li>
+ <li>Open the dropdown menu "Forest:yourserver.local" to show the domain controller.</li>
+ <li>Right-click the server and select the "Create a GPO" option and name it "Control Panel Disable".</li>
+ <li>Now that we have our first group policy we can edit it to do what we named it by right-clicking the new GPO and selecting "Edit"</li>
+ <li>Here we are presented with "Computer Configuration" and "User Configuration" where you can define what each user is allowed to access as well as the computer itself. Under "User Configuration" open the "Policies" dropdown and navigate to "Administrative Templates"</li>
+ <li>Open "Control Panel" where you can find the "Prohibit access to Control Panel and PC settings" and enable this.</li>
+</ol>
 <h3>Configure Workstation for AD</h3>
 <ol>
-  <li>Customize Windows to the language and keyboard layout you prefer.</li>
+ <li>Customize Windows to the language and keyboard layout you prefer.</li>
+ <li>Continue to finish setting up the workstation as an "Offline Account" -> "Limited Experience" because no personal details are necessary to connect to the server.</li>\
 </ol>
 <h4>Update DNS Config</h4>
+<ol>
+ <li>Using the search function in the taskbar, find the Ethernet settings and navigate to "Change adapter options"</li>
+ <li>Right-click the Ethernet adapter and head to the "Properties" tab.</li>
+ <li>Open the IPv4 properties and set the DNS server address manually to the static IP we set for the server above. </li>
+ <li>Additionally, add 8.8.8.8 as the alternate DNS server.</li>
+ <li>Ping both the server's static IP and google.com using a terminal to verify that everything is working correctly.</li>
+</ol>
 <h4>Add Workstation to Domain</h4>
+Now with the DNS server setup, we can add our workstation to the domain.
+<ol>
+ <li>In System settings scroll down to the "About" tab. </li>
+ <li>Scroll to the bottom of the "About" page and click "Rename this PC (advanced)"</li>
+ <li>Here we can change the domain to the yourserver.local forest that was created.</li>
+ <li>Enter "administrator" and the password set for the server's admin account. You should be greeted with a welcome message and that a restart is needed.</li>
+</ol>
 <h4>Test Group Policies</h4>
-
+We have successfully connected to the domain and will need to complete the first login, change the users password, and test our group policy.
+<ol>
+ <li>After restarting the computer, there will be the user that was created in the initial setup but in the bottom left corner, navigate to "Other user" instead. This is how we log in to the domain.</li>
+ <li>Enter in the username and password created earlier.</li>
+ <li>Click through the prompt saying the user must change the password and choose a new password.</li>
+ <li>Attempt to open Contol Panel and verify that it has been disabled.</li>
+</ol>
 <h2>Takeaways</h2>
 By the end of this lab one should be able to:<br>
 - Configure a server with Active Directory <br>
